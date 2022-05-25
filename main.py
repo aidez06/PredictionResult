@@ -14,7 +14,7 @@ preferences = {"download.default_directory": f"{os.getcwd()}\Prediction Elements
 options.add_experimental_option("prefs", preferences)
 driver = webdriver.Chrome(options=options)
 def opening_Csv():
-    with open('Wurfbainia_villosa.csv') as csvfile:
+    with open('fileofyourCSV.csv') as csvfile:
         smiles = csv.DictReader(csvfile)
         #this loop will read the second column from dic to append it into LIST
         for key in smiles:
