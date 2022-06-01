@@ -6,8 +6,14 @@ install selenium library
 using pip install selenium
 
 
+go to chrome click/about chrome/ chromedriver version
 
-This is my first time doing webscraping so any mistake you saw ill be glad if you can put some suggestion
+
+and find your chrome driver right here url = "https://chromedriver.chromium.org/"
 
 
-or any idea to upgrade it !
+the download chrome driver include it in the local project
+
+and run it 
+
+
